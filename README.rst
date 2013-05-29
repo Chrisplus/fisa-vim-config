@@ -1,7 +1,9 @@
 fisa-vim-config
 ===============
 
-my vim configuration (lot of python, autocompletion, fuzzy finder, debugger, ...)
+fisa vim configuration (lot of python, autocompletion, fuzzy finder, debugger, ...)
+
+I make it work right on Mac, at least on my own Mac.
 
 What is this?
 -------------
@@ -201,10 +203,20 @@ Super easy installation
 
 * **Dependencies**
 
+  For Linux:
   ::
 
     sudo apt-get install vim exuberant-ctags git
     sudo pip install dbgp vim-debug pep8 flake8 pyflakes
+    
+  For Mac:
+  ::
+    
+     Install HomeBrew first.
+     brew doctor. Fix your warning.
+     brew install ctags-exuberant git
+     Install Pip.
+     pip install dbgp vim-debug pep8 flake8 Pyflakes
 
   (if you don't have Pip, find it here: `pip <http://pypi.python.org/pypi/pip>`_)
 
